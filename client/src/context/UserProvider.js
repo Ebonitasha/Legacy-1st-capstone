@@ -95,6 +95,7 @@ export default function UserProvider(props){
   
 function handleClassType(e){
   if(e.target.value === "reset"){
+    getClasses()
   } else {
     userAxios.get(`api/classSetup/search/genre?Type=${e.target.value}`)
     // .then (res =>console.log(res))
@@ -187,7 +188,7 @@ function postComment(newComments){
         getComment,
         setAllComments,
         allComments,
-       
+      
         resetAuthErr,
        
 

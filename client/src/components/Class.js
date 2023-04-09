@@ -11,7 +11,7 @@ export default function Class(props){
       <div className='design'>
               
         <img className='classimg' src={info.Url}/> 
-        <h2 className='classtitle'>{info.Title}</h2>
+        {/* <h2 className='classtitle'>{info.Title}</h2> */}
         <h4 className='classdescription' >{info.Description}</h4>
         <h1 className='classprice'>${info.Price}</h1>
 

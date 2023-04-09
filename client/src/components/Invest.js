@@ -3,7 +3,7 @@ import { UserContext } from '../context/UserProvider.js'
 import Class from './Class.js'
 
 
-export default function Invest(){
+export default function Invest(props){
   const [invest, setInvest] = useState([])
 
   const {userAxios} = useContext(UserContext)

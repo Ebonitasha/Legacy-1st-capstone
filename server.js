@@ -4,6 +4,7 @@ require('dotenv').config()
 const morgan = require('morgan')
 const mongoose = require('mongoose')
 const {expressjwt} = require('express-jwt')
+const path = require("path")
 
 mongoose.set('strictQuery', true)
 
@@ -17,7 +18,7 @@ mongoose.connect(
 )
 
 // app.use('/class', require('./routes/classesRouter.js'))
-
+app.use(express.static(path.join(__dirname, "client", "build")))
 app.use('/auth', require('./routes/authRouter.js'))
 app.use('/api', expressjwt({ secret: "love", algorithms: ['HS256'] })) // req.user
 app.use('/api/classSetup', require('./routes/classesRouter.js'))
@@ -30,6 +31,10 @@ app.use((err, req, res, next) => {
   }
   return res.send({errMsg: err.message})
 })
+
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "client", "build", "index.html"));
+});
 
 app.listen(4000, () => {
   console.log(`Server is running on local port 4000`)
