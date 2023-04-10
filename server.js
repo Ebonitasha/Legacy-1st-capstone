@@ -10,15 +10,17 @@ mongoose.set('strictQuery', true)
 
 app.use(express.json())
 app.use(morgan('dev'))
+app.use(express.static(path.join(__dirname, "client", "build")))
+
 
 mongoose.connect(
   'mongodb+srv://ebonitasha:Purplekisses2@cluster88.gfnymjn.mongodb.net/?retryWrites=true&w=majority',
+    () => console.log('Connected to the DB')
   
-  () => console.log('Connected to the DB')
+  
 )
 
 // app.use('/class', require('./routes/classesRouter.js'))
-app.use(express.static(path.join(__dirname, "client", "build")))
 app.use('/auth', require('./routes/authRouter.js'))
 app.use('/api', expressjwt({ secret: "love", algorithms: ['HS256'] })) // req.user
 app.use('/api/classSetup', require('./routes/classesRouter.js'))
