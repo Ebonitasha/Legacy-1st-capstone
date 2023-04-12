@@ -40,7 +40,7 @@ export default function AddCommentForm(props){
       <form className="form" onSubmit={handleSubmit}>
          <input
             type="text"
-            placeholder="Add a comment"
+            placeholder="your comment here"
             onChange={handleChange}
             name="comment"
             value={comments.comment}

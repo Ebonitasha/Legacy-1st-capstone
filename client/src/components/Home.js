@@ -17,7 +17,7 @@ const {
   }, 
 userState, setUserState, userAxios, getClasses} = useContext(UserContext)
 
-const navigate = useNavigate()
+// const navigate = useNavigate()
 
   return (
     <div className="header">
@@ -26,7 +26,7 @@ const navigate = useNavigate()
         </div>
 
         <div className='container'>
-            <img classname="companyImg"src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT96VDPMmlSZ0xuUFp6xdO-uLMWVJKxVyGNZw&usqp=CAU'/>
+            <img className="companyImg"src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT96VDPMmlSZ0xuUFp6xdO-uLMWVJKxVyGNZw&usqp=CAU'/>
             {/* <img className='companyImg' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqZDIhaDquGUI5gSoIEkpNuaOFAZoNfiTJpg&usqp=CAU'></img> */}
         </div>
 

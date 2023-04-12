@@ -4,13 +4,12 @@
   background-color: rgb(201, 198, 198);
   font-size: 16px;
   font-family: sans-serif;
-  height: 600vh;
+  height: 400vh;
 }
 .header{
 width: 100%;
 position: relative;
 left: 40%;
-
 }
 .companyheader{
   width: 100%;
@@ -21,61 +20,65 @@ left: 40%;
   position: relative;
   padding: 5px;
   right: 4rem;
-  color: white;
+  color: black;
   font-size: 3rem;
   
 }
 .companyImg{
-  width: 200%;
-  align-items: center;
+  width: 20%;
+  position: relative;
+  right: -2%;
 }
 .welcome{
   position: relative;
   font-size: 1rem;
-  color: white;
+  color: black;
   right: 12rem;
 }
 
 .open{
   height: 4rem;
   font-size: larger;
+  color: green;
 }
 .close{
   height: 4rem;
   font-size: larger;
-
+  color: red;
 }
 .link{
   display: flex;
   justify-content: space-around;
   font-size: 1.5rem;
   font-family: sans-serif;
-  padding: 5px;
-  
+  padding: 5px; 
+  position: relative;
+  right: 5rem;
 }
 .link1{
   padding: 1rem;
-  color: white;
+  color: black;
   font-size: larger;
 }
 .link2{
   padding: 1rem;
-  color: white;
+  color: black;
   font-size: larger;
 }
 .link3{
   padding: 1rem;
-  color: white;
+  color: black;
   font-size: larger;
 } 
 .filter-form{
   width: 50%;
   position: relative;
-  right: 1rem;
+  /* right: -1.3rem; */
+  top: 1rem;
 }
 .profile{
   position: relative;
-  color: white;
+  color: black;
   width: 90%;
   
 }
@@ -83,34 +86,38 @@ left: 40%;
 position: relative;
 width: 100%;
 font-size: 3rem;
-left: 40%;
+left: 45%;
 }
 .me{
   display: flex;
   position: relative;
   padding: 5px;
   left: 20%;
+  border: 2px solid black;
+  width: 70%;
 
 }
 .meimg{
-  width: 25%;
+  width: 40%;
   display: flex;
-  justify-content: center;
-  align-items: center;
   padding:5px;
-  top: 50px;
+  height: 70vh;
+  position: relative;
+  left: 1rem;
+  
   
 }
 .mestory{
+  font-size: 80%;
  padding: 10px;
- max-width: 30rem;
- min-width:20rem; 
+ width:20rem;  
  position: relative;
  top: 2rem;
- left: 1rem;
+ left: 2rem;
 }
 .end{
-  max-width: 550px;
+  
+  width: 550px;
   position: relative;
   left: 30%;
   
@@ -132,24 +139,25 @@ left: 40%;
 }
 .public{
 position: relative;
-color: white;
-left:30rem;
+color: black;
+left:26rem;
 }
 .public > h1{
   position: relative;
   right: 1rem;
-  max-width: 50%;
+  width: 50%;
 }
 .public > h3{
   position: relative;
   right: 3rem;
-  max-width: 50%;
+  width: 50%;
   
 }
 .public > h5{
   position: relative;
   right: 6rem;
-  max-width: 50%;
+  width: 50%;
+  color: red;
 }
 .question{
   position: relative;
@@ -164,8 +172,8 @@ left:30rem;
   display: flex;
   flex-direction: column;
   height: 20vh;
-  border: 5px solid white;
-  max-width: 50%;
+  border: 5px solid black;
+  width: 50%;
   border-radius: 5px;
   left:16rem;
 }
@@ -173,37 +181,40 @@ left:30rem;
   margin: 8px 0;
   padding: 8px;
   border-radius: 5px;
-  max-width: 70%;
+  width: 70%;
   position: relative;
-  left: 5rem;
+  left: 4rem;
 } 
 .addcommentBtn{
   height: 5vh;
   border-radius: 5px;
   position: relative;
-  max-width: 30%;
-  left: 12rem;
+  width: 30%;
+  left: 11rem;
 }
 .commentcomment{
-  border: 2px solid white;
+  border: 2px solid black;
   position: relative;
   left: 13rem;
-  max-width: 60%;
+  width: 60%;
   top: 5rem;
 }
 .commentsadded{
   height: 30vh;
-  color: white;
+  color: black;
   position: relative;
   left: 90px;
  
 }
 .eachcomment{
   border: 2px solid grey;
-  max-height: 200px;
-  max-width: 800px;
-  color: white;
+  width: 97%;
+  color: black;
   position: relative;
+  height: 10vh;
+  font-size: 75%;
+  padding: 2px 2px 2px 2px;
+  margin: 5px;
   
 }
 
@@ -224,7 +235,7 @@ left:30rem;
   align-items: center;
   flex-direction: column;
   height: 100vh;
-  color: white;
+  color: black;
 }
 
 .auth-container > h1 {
@@ -261,8 +272,8 @@ left:30rem;
 
 .class-container{
   /* border: 2px solid white; */
-  color: white;
-  max-width: 100%;
+  color: black;
+  max-width: 90%;
   position: relative;
   left: 60px;
   top: 3rem
@@ -270,7 +281,7 @@ left:30rem;
 }
 .design{
   position: relative;
-  max-width: 50%;
+  width: 50%;
   left: 25rem;
 
 }
@@ -282,7 +293,9 @@ left:30rem;
 }
 .classdescription{
   position: relative;
-  right: 10rem;
+  right:10rem;
+  width: 120%;
+  font-size: 80%;
 }
 .classtitle{
   position: relative;
@@ -290,7 +303,8 @@ left:30rem;
 }
 .classprice{
   position: relative;
-left:3rem;
+  left:1rem;
+  color: red;
 }
 .votecount{
   color: white;
@@ -299,3 +313,391 @@ left:3rem;
   color: white;
 }
 
+
+/*LARGER PHONES */
+ @media only screen and (max-width: 450px){
+  .auth-container > h1 {
+    font-size: 1rem;
+  }
+  .companyName{
+    position: relative;
+    right: 5rem;
+    width:80%;
+    font-size: 2rem;
+  }
+  .companyImg{
+    width: 55%;
+    position: relative;
+    left: -4rem;
+    
+  }
+  .link{ 
+    position: relative;
+    left: -3rem;
+  }
+  .navbar {
+    height: 50px;
+    width: 100%;
+  }
+  .welcome{
+    position: relative;
+    font-size: 1rem;
+    width: 60%;
+    right:4rem;
+  }
+  .filter-form{
+    width: 75%;
+    position: relative;
+    left: -5.5rem;
+  }
+  
+  .about{
+    position: relative;
+    width: 60%;
+    font-size: 2rem;
+    left: 40%;
+    top: 1rem;
+ 
+    }
+    .me{
+      position: relative;
+      left: 10%;
+      padding: 3px;
+      width: 90%;
+      height: 50rem;
+      display: flex;
+      flex-direction: column;
+    
+    }
+    .meimg{
+      width: 75%;
+      height: 50%;   
+      position: relative;
+      top: 2px;
+      left: 2rem;
+      border: 2px solid black;
+    }
+    .mestory{
+      position: relative;
+      width: 75%;
+      top: .5rem;
+      left: 2rem;
+     }
+     .end{
+      position: relative;
+      left: 5rem;
+      width: 75%;
+
+     }
+     .imgcontainer{
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      top: 20px;
+    }
+    .bottomimg{
+      width: 60%;
+      padding: 10px;
+      position: relative;
+      left: 5rem;
+      border: 2px solid black;
+    
+    }
+    .public{
+      position: relative;
+      color: black;
+      left:8rem;
+      }
+      .public > h1{
+        position: relative;
+        right: 1rem;
+        width: 40%;
+      }
+      .public > h3{
+        position: relative;
+        right: 4rem;
+        width:90%;
+        
+      }
+      .public > h5{
+        position: relative;
+        right: 3.5rem;
+        width: 70%;
+        color: red;
+        bottom: 1rem;
+        font-size: 12px;
+      }
+      .form{
+        position: relative;
+        height: 15vh;
+        border: 3px solid black;
+        width:85%;
+        border-radius: 5px;
+        left:1rem;
+        top: -1rem;
+      }
+      .addcomment{
+        width: 85%;
+        position: relative;
+        left: 1rem;
+      } 
+      .addcommentBtn{
+        height: 4vh;
+        border-radius: 5px;
+        position: relative;
+        width: 50%;
+        left: 4.5rem;
+      }
+      .question{
+        position: relative;
+        left: 4rem;
+        top: 2rem;
+      }
+      .commentcomment{
+        border: 2px solid  black;
+        position: relative;
+        left: 2.5rem;
+        width: 75%;
+        top: 1rem;
+      }
+      .eachcomment{
+        border: 2px solid grey;
+        height: 7vh;
+        width: 94%;
+        color: black;
+        position: relative;
+        font-size:60%;
+        margin: 5px;
+        
+      }
+      .design{
+        position: relative;
+        width: 100%;
+        left: 6rem;
+      
+      }
+      .classimg{
+        position: relative;
+        right: 5rem;
+        border: 2px solid black;
+        width: 60%;
+      }
+      .classdescription{
+        position: relative;
+        right: 8rem;
+        width: 100%;
+      }
+      .classtitle{
+        position: relative;
+        
+      }
+      .classprice{
+        position: relative;
+        left: -1rem;
+        
+        
+      }
+
+ 
+
+}
+
+/* @media only screen and (max-width: 1000px){
+  .auth-container > h1 {
+    font-size: 1rem;
+  }
+ 
+  .companyName{
+    width: 80%;
+    font-size: 1.5rem;
+    position: relative;
+    
+  }
+  .companyImg{
+    position: relative;
+    width: 40%;
+    right: 3rem;
+  
+  }
+  .navbar {
+    height: 30px;
+   width: 100%;
+    
+  }
+  .welcome{
+    position: relative;
+    font-size: 1.1rem;
+    right: 16rem;
+  }
+  .filter-form{
+    width: 75%;
+    position: relative;
+    right: 1rem;
+    top: 2rem;
+  }
+  .link{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    padding: 5px; 
+    position: relative;
+    right: 10rem;
+  }
+  .open{
+    color: green;
+  }
+  .close{
+  color: blue;
+  
+  } */
+
+  /* .about{
+    position: relative;
+    width: 80%;
+    font-size: 2rem;
+    left: 45%;
+    top: 1rem;
+ 
+    }
+    .me{
+      position: relative;
+      left: 17%;
+      padding: 3px;
+      width: 75%;
+      height: 50rem;
+      display: flex;
+      flex-direction: column;
+    
+    }
+    .meimg{
+      width: 65%;
+      height: 50%;   
+      position: relative;
+      top: 40px;
+      left: 6rem;
+      border: 2px solid black;
+    }
+    .mestory{
+      position: relative;
+      width: 60%;
+      top: 3rem;
+      left: 7rem;
+     }
+     .end{
+      position: relative;
+      left: 9rem;
+      width: 75%;
+
+     }
+     .imgcontainer{
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      top: 20px;
+   
+      
+    }
+    .bottomimg{
+      width: 45%;
+      padding: 10px;
+      position: relative;
+      left:14rem;
+      border: 2px solid black;
+    
+    }
+    .public{
+      position: relative;
+      color: black;
+      left:20rem;
+      }
+      .public > h1{
+        position: relative;
+        right: 1rem;
+        width: 40%;
+      }
+      .public > h3{
+        position: relative;
+        right: 4rem;
+        width:90%;
+        
+      }
+      .public > h5{
+        position: relative;
+        right: 7rem;
+        width: 80%;
+        color: red;
+        bottom: 1rem;
+      }
+      .form{
+        position: relative;
+        height: 16vh;
+        border: 3px solid black;
+        width:65%;
+        border-radius: 5px;
+        left:9rem;
+        top: -1rem;
+      }
+      .addcomment{
+        width: 85%;
+        position: relative;
+        left: 1.6rem;
+      } 
+      .addcommentBtn{
+        height: 5vh;
+        border-radius: 5px;
+        position: relative;
+        width: 40%;
+        left: 10rem;
+      }
+      .question{
+        position: relative;
+        left: 3.5rem;
+        top: 2rem;
+      }
+      .commentcomment{
+        border: 2px solid  black;
+        position: relative;
+        left: 6.3rem;
+        width: 75%;
+        top: 1rem;
+      }
+      .eachcomment{
+        border: 2px solid grey;
+        height: 10vh;
+        width: 96%;
+        color: black;
+        position: relative;
+        font-size:65%;
+        margin: 5px;
+        
+      }
+      .design{
+        position: relative;
+        width: 80%;
+        left: 15rem;
+      
+      }
+      .classimg{
+        position: relative;
+        right: 5rem;
+        border: 2px solid black;
+        width: 60%;
+      }
+      .classdescription{
+        position: relative;
+        right: 8rem;
+        width: 100%;
+      }
+      .classtitle{
+        position: relative;
+        
+      }
+      .classprice{
+        position: relative;
+        left: 4rem; */
+        
+        
+      
+
+/* } */

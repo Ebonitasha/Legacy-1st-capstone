@@ -6,7 +6,7 @@ import Invest from './Invest.js'
 export default function Navbar(props){
   const { logout, invest } = props
 
-  const navigate = useNavigate()
+  // const navigate = useNavigate()
 
   const {userState, handleClassType, getClasses} = useContext(UserContext)
 

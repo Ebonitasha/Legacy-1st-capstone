@@ -24,7 +24,7 @@ export default function Profile(props){
               <AddCommentForm submit={postComment}/>
               </div>
         <div>
-          <h3 className='question'>All Questions & Comments</h3>
+          {/* <h3 className='question'>All Questions & Comments</h3> */}
         
         <CommentList {...allComments}/>
         </div>
