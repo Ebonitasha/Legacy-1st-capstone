@@ -21,6 +21,7 @@ mongoose.connect(
 )
 
 // app.use('/class', require('./routes/classesRouter.js'))
+
 app.use('/auth', require('./routes/authRouter.js'))
 app.use('/api', expressjwt({ secret: "love", algorithms: ['HS256'] })) // req.user
 app.use('/api/classSetup', require('./routes/classesRouter.js'))
