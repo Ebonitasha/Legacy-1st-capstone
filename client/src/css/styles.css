@@ -376,9 +376,10 @@ flex-direction: column;
   .welcome{
     position: relative;
     width: 90%;
+    left:1rem;
    
   }
-  .companyImg{
+  .logo{
     width: 55%;
     position: relative;
   
