@@ -20,19 +20,19 @@ userState, setUserState, userAxios, getClasses} = useContext(UserContext)
 // const navigate = useNavigate()
 
   return (
-    <div className="header">
-        <div className='companyheader'>
-            <h1 className='companyName'>Legacy 1st LLC</h1>
-        </div>
-
+    <div >
+      <div className='head-container'>
+        <h1 className='welcome'>Welcome @{username}, below you can select the available class options!</h1>
+      </div>
         <div className='container'>
-            <img className="companyImg"src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT96VDPMmlSZ0xuUFp6xdO-uLMWVJKxVyGNZw&usqp=CAU'/>
+        
+        <img className='logo' src="/images/white.jpg" alt=''/>
             {/* <img className='companyImg' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqZDIhaDquGUI5gSoIEkpNuaOFAZoNfiTJpg&usqp=CAU'></img> */}
         </div>
 
         <div className='filterbox'>
         <div>
-                         <h1 className='welcome'>Welcome @{username} to Legacy 1st LLC, below you can select the available class options!</h1>
+                         
                 {/* <h3 className="options">*Click here for Class Options*</h3> */}
                 <div className="filter-form">
                 {dropDown? 

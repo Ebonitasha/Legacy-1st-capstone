@@ -16,6 +16,7 @@ const {comments} = props
 
 console.log(allComments, "test all comment")
   return (
+    <div className='comment-content'>
     <div className='commentcomment'>
         {
            allComments.map(item =>
@@ -36,6 +37,7 @@ console.log(allComments, "test all comment")
             )
           }
          
+    </div>
     </div>
   )
 }

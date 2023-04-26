@@ -20,7 +20,7 @@ export default function Profile(props){
           <h5>Please note every user can see your comments, like or dislike</h5>
         </div>
 
-              <div>
+              <div className='form-content'>
               <AddCommentForm submit={postComment}/>
               </div>
         <div>

@@ -21,10 +21,10 @@ export default function About(){
         </div>
 
       <hr/>
-
+    <div className='the-end'>
       <h5 className='end'>Below I'd like to share some photos from my experience and hopefuly to encourage and motivate all that I can. We all can do it!
       Any question are concers, head over to the Public page comment there, I will respond at my earliest convenience.</h5>
-     
+      </div>
       <div className='imgcontainer'>
       <img className='bottomimg' src="/images/IMG-1450.jpg" alt=''/>
       <img className='bottomimg' src="/images/IMG-2259.jpg" alt=''/>
