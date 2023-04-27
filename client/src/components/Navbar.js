@@ -16,16 +16,7 @@ export default function Navbar(props){
       <Link className='navbar-words' to="/home">Home</Link> 
       <Link className='navbar-words' to="/about">About</Link>
       <Link className='navbar-words' to="/public">Public</Link>
-        {/* <div>
-          <select onChange={handleClassType}>
-            <option value='reset'>Class Options</option>
-            <option value={11}>Invest with Me</option>
-            <option value={12}>Start to finish</option>
-            <option value="invest">Back to Basics</option>
-          </select>
-          <button onClick={() => navigate('classSetup')}>Select</button>
-          
-        </div> */}
+   
         
           <Link className='navbar-words' to="/invest">Invest</Link>
           <Link className='navbar-words' to="/start">Start</Link> 

@@ -20,8 +20,8 @@ userState, setUserState, userAxios, getClasses} = useContext(UserContext)
 // const navigate = useNavigate()
 
   return (
-    <div >
-      <div className='head-container'>
+    <div className='head-container' >
+      <div >
         <h1 className='welcome'>Welcome @{username}, below you can select the available class options!</h1>
       </div>
         <div className='container'>

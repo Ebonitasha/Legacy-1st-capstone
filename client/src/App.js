@@ -29,6 +29,7 @@ export default function App(){
           path="/" 
           element={ token ? <Navigate to="/home"/> : <Auth />}
         />
+     
         <Route 
           path="/home"
           element={<ProtectedRoute token={token}>

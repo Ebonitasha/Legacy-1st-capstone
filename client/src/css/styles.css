@@ -2,17 +2,20 @@
 
 .app {
   background-color: rgb(201, 198, 198);
+ 
   font-size: 16px;
   font-family: sans-serif;
   height: 400vh;
 }
 .head-container{
 width: 100%;
+position: relative;
+top: 1rem;
+
 
 
 }
 .welcome{
- 
   display: flex;
 	justify-content: center;
 	position: relative;
@@ -58,7 +61,7 @@ width: 100%;
 .open{
   height: 3rem;
   font-size: larger;
-  color: green;
+  color: red;
  
 }
 .close{
@@ -66,7 +69,7 @@ width: 100%;
   font-size: larger;
   color: red;
   position: relative;
-  left: 12rem;
+  left: 13rem;
 
 }
 .link{
@@ -100,6 +103,8 @@ width: 100%;
 .profile{
   color: black;
   width: 90%;
+  position: relative;
+  left: 2rem;
   
 }
 .about{
@@ -111,15 +116,16 @@ position: relative;
 align-items: center;
 left: 1rem;
 }
-/* .me{
+.me{
   display: flex;
 	justify-content: center;
 	position: relative;
 	align-items: center;
   flex-direction: row;
   padding: 5px;
-} */
-.me{
+  
+}
+/* .me{
   display: flex;
 	justify-content: center;
 	position: relative;
@@ -127,9 +133,9 @@ left: 1rem;
   flex-direction: column;
   padding: 5px;
  
-}
+} */
 .meimg{
-  width: 35%;
+  min-width: 30%;
   display: flex;
   padding:5px;
   height: 60vh;
@@ -162,6 +168,7 @@ font-size: smaller;
   
   position: relative;
   top: 20px;
+  right: 1rem;
 }
 .public-body{
   width: 100%;
@@ -286,6 +293,8 @@ flex-direction: column;
   flex-direction: column;
   height: 100vh;
   color: black;
+  position: relative;
+  top: 2rem;
 }
 
 .auth-container > h1 {
@@ -428,7 +437,10 @@ flex-direction: column;
     position: relative;
     right: 3rem;
   }
-  
+  .profile{
+    position: relative;
+    left: .3rem;
+  }
   .about{
     position: relative;
     }
@@ -570,46 +582,30 @@ flex-direction: column;
        
       } */
      
-      /* .auth-container {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        height: 100vh;
-        color: black;
-      } */
+      .auth-container {
+        position: relative;
+        top: 3rem;
+      
+        
+      } 
       
       .auth-container > h1 {
-        font-size: 1rem;
+        font-size: 1.3rem;
         margin: 24px;
       }
       
-      /* .auth-container > p {
-        margin: 20px;
-        text-decoration: underline;
-        font-size: 1em;
+      .auth-container > p {
+        font-size: 1.5rem;
+        position: relative;
+        top: 2rem;
+        
+        
       }
       
       .auth-container > form {
-        border: 1px solid #3339;
-        padding: 20px;
-        border-radius: 5px;
-        background-color: #aaa9;
-      
-        display: flex;
-        flex-direction: column;
+       width: 60%;
       }
       
-      .auth-container > form > input {
-        margin: 16px 8px;
-        padding: 8px;
-        border-radius: 4px;
-      }
-      
-      .auth-container > form > button {
-        margin: 16px 8px;
-        padding: 8px;
-        border-radius: 4px;
-      } */
  
 
 }
