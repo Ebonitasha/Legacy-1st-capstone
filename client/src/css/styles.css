@@ -16,7 +16,7 @@ width: 100%;
   display: flex;
 	justify-content: center;
 	position: relative;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: black;
   top: 1rem;
   
@@ -111,28 +111,36 @@ position: relative;
 align-items: center;
 left: 1rem;
 }
-.me{
+/* .me{
   display: flex;
 	justify-content: center;
 	position: relative;
 	align-items: center;
   flex-direction: row;
   padding: 5px;
-  
-
+} */
+.me{
+  display: flex;
+	justify-content: center;
+	position: relative;
+	align-items: center;
+  flex-direction: column;
+  padding: 5px;
+ 
 }
 .meimg{
-  width: 40%;
+  width: 35%;
   display: flex;
   padding:5px;
   height: 60vh;
   position: relative;
   border: 2px solid black; 
+  left: 1rem;
   
 }
 .mestory{
 font-size: smaller;
- width: 35%;  
+ width: 45%;  
  position: relative;
  left: 2rem;
 }
@@ -375,7 +383,7 @@ flex-direction: column;
   }
   .welcome{
     position: relative;
-    width: 90%;
+    width: 80%;
     left:1rem;
    
   }
