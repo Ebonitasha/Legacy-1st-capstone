@@ -397,7 +397,7 @@ flex-direction: column;
     justify-content: center;
     position: relative;
     align-items: center;
-    left: 4rem;
+    left: 3.3rem;
    
     width: 75%;
   
@@ -573,10 +573,14 @@ flex-direction: column;
       
         
       } 
-      
+      .ready{
+        position: relative;
+        left: 1rem;
+      }
       .auth-container > h1 {
         font-size: 1.3rem;
-        margin: 24px;
+       
+       
       }
       
       .auth-container > p {
