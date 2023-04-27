@@ -397,7 +397,7 @@ flex-direction: column;
     justify-content: center;
     position: relative;
     align-items: center;
-    left: 5rem;
+    left: 4rem;
    
     width: 75%;
   
@@ -414,7 +414,7 @@ flex-direction: column;
   }
   .close{
     position: relative;
-    left: 7rem;
+    left: 6rem;
   }
   .link{ 
     position: relative;
@@ -563,7 +563,7 @@ flex-direction: column;
       }
       .class-container{
       position: relative;
-      right: 9rem;
+      right: 9.5rem;
       }
    
      
