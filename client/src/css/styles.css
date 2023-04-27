@@ -2,7 +2,6 @@
 
 .app {
   background-color: rgb(201, 198, 198);
- 
   font-size: 16px;
   font-family: sans-serif;
   height: 400vh;
@@ -11,8 +10,6 @@
 width: 100%;
 position: relative;
 top: 1rem;
-
-
 
 }
 .welcome{
@@ -135,10 +132,10 @@ left: 1rem;
  
 } */
 .meimg{
-  min-width: 30%;
+  min-width: 25%;
   display: flex;
   padding:5px;
-  height: 60vh;
+  height: 50vh;
   position: relative;
   border: 2px solid black; 
   left: 1rem;
@@ -379,6 +376,10 @@ flex-direction: column;
 
 /*LARGER PHONES */
  @media only screen and (max-width: 450px){
+  .app{
+    
+  }
+
   .auth-container > h1 {
     font-size: 2rem;
   }
@@ -387,13 +388,19 @@ flex-direction: column;
     justify-content: center;
     position: relative;
     align-items: center;
+    flex-direction: column;
     width: 100%;
     
   }
   .welcome{
+    display: flex;
+    justify-content: center;
     position: relative;
-    width: 80%;
-    left:1rem;
+    align-items: center;
+    left: 5rem;
+   
+    width: 75%;
+  
    
   }
   .logo{
@@ -415,7 +422,7 @@ flex-direction: column;
   }
   .navbar {
     height: 50px;
-    width: 100%;
+    width: 98%;
   }
 
   .filter-form{
@@ -451,15 +458,16 @@ flex-direction: column;
       height: 50rem;
       display: flex;
       flex-direction: column;
+      bottom: 2rem;
     
     }
     .meimg{
       width: 75%;
       height: 50%;   
       position: relative;
-      top: 2px;
       left: 2rem;
       border: 2px solid black;
+    
     }
     .mestory{
       position: relative;
@@ -557,30 +565,7 @@ flex-direction: column;
       position: relative;
       right: 9rem;
       }
-      /* .design{
-        position: relative;
-        width: 100%;
-    
-      }
-      .classimg{
-        position: relative;
-     
-        border: 2px solid black;
-        width: 60%;
-      }
-      .classdescription{
-        position: relative;
-     
-        width: 100%;
-      }
-      .classtitle{
-        position: relative;
-        
-      }
-      .classprice{
-        position: relative;
-       
-      } */
+   
      
       .auth-container {
         position: relative;
@@ -610,72 +595,66 @@ flex-direction: column;
 
 }
 
-/* @media only screen and (max-width: 1000px){
+@media only screen and (min-width : 450px) and (max-width: 1000px){
+
   .auth-container > h1 {
     font-size: 1rem;
   }
+  .logo{
+    width: 45%;
+  }
  
-  .companyName{
-    width: 80%;
-    font-size: 1.5rem;
-    position: relative;
-    
-  }
-  .companyImg{
-    position: relative;
-    width: 40%;
-    right: 3rem;
-  
-  }
   .navbar {
-    height: 30px;
-   width: 100%;
+   
+   width: 98%;
     
   }
   .welcome{
     position: relative;
-    font-size: 1.1rem;
-    right: 16rem;
+    width: 85%;
+    left: 3rem;
   }
-  .filter-form{
-    width: 75%;
+  .head-container{
     position: relative;
-    right: 1rem;
     top: 2rem;
-  }
-  .link{
-    display: flex;
-    justify-content: space-around;
-    font-size: 1.5rem;
-    font-family: sans-serif;
-    padding: 5px; 
+    
+    }
+  .filter-form{
+    width: 90%;
     position: relative;
-    right: 10rem;
+    left: 1rem;
+    top: 1rem;
+  
   }
   .open{
-    color: green;
+   
   }
   .close{
-  color: blue;
-  
-  } */
-
-  /* .about{
     position: relative;
-    width: 80%;
-    font-size: 2rem;
-    left: 45%;
-    top: 1rem;
+    left: 12rem;
+  
+  } 
+  .link{
+    position: relative;
+    left: 2rem;
+  }
+  .profile{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+  }
+
  
-    }
     .me{
       position: relative;
-      left: 17%;
       padding: 3px;
       width: 75%;
       height: 50rem;
       display: flex;
       flex-direction: column;
+      bottom: 3rem;
     
     }
     .meimg{
@@ -683,129 +662,66 @@ flex-direction: column;
       height: 50%;   
       position: relative;
       top: 40px;
-      left: 6rem;
-      border: 2px solid black;
+  
     }
     .mestory{
       position: relative;
       width: 60%;
       top: 3rem;
-      left: 7rem;
+     }
+     .the-end{
+      position: relative;
+      bottom: 1rem;
      }
      .end{
       position: relative;
-      left: 9rem;
-      width: 75%;
-
      }
      .imgcontainer{
       display: flex;
-      flex-direction: column;
+      justify-content: center;
       position: relative;
-      top: 20px;
-   
-      
+      align-items: center;
+      flex-direction: column;
     }
     .bottomimg{
-      width: 45%;
+      width: 35%;
       padding: 10px;
       position: relative;
-      left:14rem;
-      border: 2px solid black;
+      bottom: 3rem;
+      
     
-    }
-    .public{
+    } 
+     .public{
       position: relative;
       color: black;
-      left:20rem;
+  
       }
-      .public > h1{
-        position: relative;
-        right: 1rem;
-        width: 40%;
-      }
-      .public > h3{
-        position: relative;
-        right: 4rem;
-        width:90%;
-        
-      }
-      .public > h5{
-        position: relative;
-        right: 7rem;
-        width: 80%;
-        color: red;
-        bottom: 1rem;
-      }
+     
       .form{
         position: relative;
-        height: 16vh;
-        border: 3px solid black;
-        width:65%;
-        border-radius: 5px;
-        left:9rem;
-        top: -1rem;
+        width: 60%;
       }
       .addcomment{
         width: 85%;
         position: relative;
-        left: 1.6rem;
+        height: 3vh;
+    
       } 
       .addcommentBtn{
         height: 5vh;
-        border-radius: 5px;
-        position: relative;
         width: 40%;
-        left: 10rem;
-      }
-      .question{
-        position: relative;
-        left: 3.5rem;
-        top: 2rem;
       }
       .commentcomment{
-        border: 2px solid  black;
-        position: relative;
-        left: 6.3rem;
-        width: 75%;
-        top: 1rem;
-      }
-      .eachcomment{
-        border: 2px solid grey;
-        height: 10vh;
-        width: 96%;
-        color: black;
-        position: relative;
-        font-size:65%;
-        margin: 5px;
-        
-      }
-      .design{
-        position: relative;
         width: 80%;
-        left: 15rem;
+      }
+      .class-container{
+      display: flex;
+      justify-content: center;
+      position: relative;
+      align-items: center;
+      right: 5rem;
       
       }
-      .classimg{
-        position: relative;
-        right: 5rem;
-        border: 2px solid black;
-        width: 60%;
-      }
-      .classdescription{
-        position: relative;
-        right: 8rem;
-        width: 100%;
-      }
-      .classtitle{
-        position: relative;
-        
-      }
-      .classprice{
-        position: relative;
-        left: 4rem; */
-        
-        
-      
+    
 
-/* } */
+} 
